@@ -27,7 +27,7 @@ class App extends Component {
             })
             .then(response => this.setState({
               results: response.map((x, index)=>{
-                        return { x: index, y: x.DangerLevel};
+                        return { x: x.ValidFrom, y: x.DangerLevel};
                     })
                 })
             )}

@@ -7,7 +7,7 @@ const Chart = (props) => {
         return (
           <XYPlot
           xType="ordinal"
-          width={300}
+          width={800}
           height={300}>
           <VerticalGridLines />
           <HorizontalGridLines />
